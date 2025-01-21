@@ -50,7 +50,7 @@ body {
       @apply bg-dark-green text-foreground;
     }
     .block-cont{
-        @apply bg-[url('src/assets/img/bg.png')] bg-cover
+        @apply bg-[url('assets/img/bg.png')] bg-cover
         w-full h-full z-10 border-solid border-2 border-dark-green;
     }
     .icon{@apply bg-yellow rounded-full justify-center flex
