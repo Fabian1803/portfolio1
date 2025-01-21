@@ -18,7 +18,7 @@ function App() {
   }, [isMobile]);
 
   return (
-    <div className="App min-h-screen flex justify-center p-5">
+    <div className="App min-h-screen flex justify-center p-1 lg:p-4">
       <div className=" flex flex-col gap-3 lg:grid lg:gap-1 grid-cols-12 grid-rows-12 w-[90%] lg:w-[75%] ">
         <AnimatePresence key={resizeKey}>
           

@@ -1,4 +1,5 @@
 import LightBackground from "../ui/LightBackground";
+import logo from "../assets/img/logo.png"
 
 const Header = () => {
     return (
@@ -10,7 +11,7 @@ const Header = () => {
                     <li><a href="">projects</a></li>
                     <li><a href="">contact</a></li>
                 </ul>
-                <img className=" h-10 aspect-auto" src="src/assets/img/logo.png" alt="logoXd" />
+                <img className=" h-10 aspect-auto" src={logo} alt="logoXd" />
             </div>
             <LightBackground />
         </>
