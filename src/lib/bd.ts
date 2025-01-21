@@ -1,3 +1,5 @@
+import pre1 from "../assets/img/projects/pre1.jpg";
+
 export const data = [
     {
         title: 'lenguajes',
@@ -36,7 +38,7 @@ export const proys = [
     },       
     { id: 2, 
         content: "Game House", 
-        imgSrc: "src/assets/img/projects/pre1.jpg", 
+        imgSrc: pre1, 
         listCont: [
             "Java",
             "Bootstrap",
