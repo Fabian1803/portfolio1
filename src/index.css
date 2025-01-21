@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'AnimeAce';
+    src: url('src/assets/fonts/animeace2_reg.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AnimeAce';
+    src: url('src/assets/fonts/animeace2_ital.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+  
+@font-face {
+    font-family: 'AnimeAce';
+    src: url('src/assets/fonts/animeace2_bld.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+    :root {
+        --dark-green: #181c14;
+        --grey: #3c3d37;
+        --light-green: rgba(105, 117, 101, 0.5);
+
+        --yellow: #ecdfcc;
+        --luz: 0 0 300px 5px var(--light-green); 
+
+    }
+
+    .dark {
+    }
+}
+  
+@layer base {
+    * {
+      @apply rounded-md ;
+    }
+    body {
+      @apply bg-dark-green text-foreground;
+    }
+    .block-cont{
+        @apply bg-[url('src/assets/img/bg.png')] bg-cover
+        w-full h-full z-10 border-solid border-2 border-dark-green;
+    }
+    .icon{@apply bg-yellow rounded-full justify-center flex
+    items-center h-7 md:h-8 lg:h-[55%] w-auto aspect-square}
+
+    .lightBackground { @apply absolute inset-0 shadow-glow z-0 border-2
+        border-solid border-black}
+
+    .tittle {@apply font-animeAce text-white absolute left-[100%] 
+        lg:text-3xl text-5xl text-center items-center flex h-full p-5}
+
+    .p-font{@apply font-animeAce text-sm lg:text-[12px] xl:text-sm text-center}
+
+    .border-plat{
+        @apply border-2 border-solid border-black
+    }
+    .buttonSytles{
+        @apply absolute transform -translate-y-1/2 p-1 bg-opacity-35 bg-black
+         text-white rounded-full hover:bg-opacity-75 border-[1px] border-solid hover:border-opacity-50 
+    }
+}
+
