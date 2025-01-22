@@ -1,4 +1,7 @@
 import pre1 from "../assets/img/projects/pre1.jpg";
+import pre2 from "../assets/img/projects/pre2.png";
+import pre3 from "../assets/img/projects/pre3.png";
+import pre4 from "../assets/img/projects/pre4.jpg";
 
 export const data = [
     {
@@ -28,11 +31,14 @@ export const profile = {
 
 export const proys = [
     { id: 1, 
-        content: "Contenido 1", 
-        imgSrc: "src/assets/img/profile.jpeg", 
+        content: "Eazy-E Sports", 
+        imgSrc: pre4, 
         listCont: [
-            "cont1", 
-            "cont2"
+            "html", 
+            "css",
+            "js",
+            "php",
+            "mysql"
         ],
         link: "https://www.youtube.com/watch?v=KL_yIf5uiJo"
     },       
@@ -49,11 +55,24 @@ export const proys = [
         link: "http//google.com"
     },
     { id: 3, 
-        content: "Contenido 3", 
-        imgSrc: "src/assets/img/bg.png", 
+        content: "USC", 
+        imgSrc: pre2, 
         listCont: [
-            "cont1", 
-            "cont2"
+            "spring boot", 
+            "android studio",
+            "Sql server",
+            "Firebase"
+        ],
+        link: "http//google.com"
+    },
+    { id: 4, 
+        content: "mr.dog", 
+        imgSrc: pre3, 
+        listCont: [
+            "Flutter",
+            "spring boot", 
+            "Sql server",
+            "Java"
         ],
         link: "http//google.com"
     },

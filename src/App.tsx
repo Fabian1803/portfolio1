@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App min-h-screen flex justify-center pr-1 pl-5 pb-4 pt-5 lg:p-4">
-      <div className=" flex flex-col gap-3 lg:grid lg:gap-1 grid-cols-12 grid-rows-12 w-[90%] lg:w-[75%] ">
+      <div className=" flex flex-col gap-3 lg:grid lg:gap-1 grid-cols-12 grid-rows-12 w-[90%] lg:w-[75%]  2xl:w-[1120px] 2xl:aspect-[16/9]">
         <AnimatePresence key={resizeKey}>
           
           {!isMobile && (

@@ -24,7 +24,7 @@ const Carousel = () => {
                         <img
                             src={proys[currentIndex].imgSrc}
                             alt={`Slide ${currentIndex + 1}`}
-                            className="w-full h-[60%] lg:h-[18vw] xl:h-[15vw] object-cover"
+                            className="w-full h-[60%] lg:max-h-[18vw] lg:min-h-[20vw] xl:max-h-[18vw] xl:min-h-[14vw] object-cover"
                         />
 
                         <p className="text-center font-animeAce text-white p-2"
