@@ -13,7 +13,6 @@ module.exports = {
         yellow: "var(--yellow)",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        
       },  
       boxShadow: {
         'glow': 'var(--luz)', 
@@ -23,5 +22,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }

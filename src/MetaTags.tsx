@@ -13,6 +13,8 @@ const MetaTags: React.FC = () => {
       <title>{metaData.title}</title>
       <link rel="icon" href={metaData.favicon} type="image/svg+xml" />
       <html lang="en" translate="no"/>
+      <meta name="theme-color" content={metaData.color} />
+      <meta name="apple-mobile-web-app-status-bar-style" content={metaData.color} />
     </Helmet>
   );
 };
