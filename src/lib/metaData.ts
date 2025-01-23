@@ -1,7 +1,7 @@
 export const metaData = {
     author: "Fabian",
-    title: "Fbn RM",
+    title: "Pf-fbn",
     description: "Una aplicación de ejemplo para manejar metadatos dinámicamente.",
     favicon: "/vite.svg",
-    color: "var(--dark-green)",
+    color: "#181c14",
 };
