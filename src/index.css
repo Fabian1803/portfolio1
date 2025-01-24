@@ -47,7 +47,7 @@ body {
     }
 
     body {
-        @apply bg-dark-green text-foreground;
+        @apply bg-dark-green text-foreground select-none;
     }
 
     .block-cont {

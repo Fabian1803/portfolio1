@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.png"
 const Header = () => {
     return (
         <div className="h-[55px] w-full lg:h-auto">
-            <div className="block-cont font-animeAce text-white flex 
+            <div className="block-cont font-animeAce text-white flex overflow-hidden
             justify-between pr-5 pl-5 items-center text-auto md: text-sm">
                 <ul className="flex gap-5">
                     <li><a href="">home</a></li>

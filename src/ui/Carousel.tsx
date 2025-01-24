@@ -18,32 +18,39 @@ const Carousel = () => {
 
     return (
         <>
-            <div className="overflow-hidden w-full h-full">
-                <div className="flex transition-transform duration-300 h-full">
-                    <div className="flex-shrink-0 w-full">
-                        <img
-                            src={proys[currentIndex].imgSrc}
-                            alt={`Slide ${currentIndex + 1}`}
-                            className="w-full h-[60%] lg:max-h-[18vw] lg:min-h-[20vw] xl:max-h-[18vw] xl:min-h-[14vw] object-cover"
-                        />
+            <div className="flex w-full h-full ">
+                <div className="flex transition-transform duration-300 w-full h-auto overflow-hidden">
+                    <div className="grid grid-rows-3 h-auto w-full">
+                        <div className="row-span-2 ">
+                            <img
+                                src={proys[currentIndex].imgSrc}
+                                alt={`Slide ${currentIndex + 1}`}
+                                className="w-full h-[100%] object-cover"
+                                draggable="false"
+                            />
+                        </div>
 
-                        <p className="text-center font-animeAce text-white p-2"
-                        >{proys[currentIndex].content}</p>
-                        <ul className="text-center flex gap-2 justify-center">
-                            {proys[currentIndex].listCont.map((item, index) => (
-                                <li key={index} className="text-[9px] font-animeAce bg-grey text-white p-1 rounded-xl">
-                                    {item}
-                                </li>
-                            ))}
-                        </ul>
-                        <div className="text-center pt-4">
-                            <a
-                                className="bg-white font-animeAce text-xs pb-2 pt-2 pr-3 pl-3"
-                                href={proys[currentIndex].link}>
-                                GitHub
-                            </a>
+                        <div className="flex flex-col justify-between row-span-1">
+                            <p className="text-center font-animeAce text-white p-2">
+                                {proys[currentIndex].content}
+                            </p>
+                            <ul className="text-center flex gap-2 justify-center items-center h-auto flex-wrap">
+                                {proys[currentIndex].listCont.map((item, index) => (
+                                    <li key={index} className="text-[9px] font-animeAce bg-grey text-white p-1 rounded-xl truncate">
+                                        {item}
+                                    </li>
+                                ))}
+                            </ul>
+                            <div className="text-center mt-4 mb-1">
+                                <a
+                                    className="bg-white font-animeAce text-xs pb-2 pt-2 pr-3 pl-3"
+                                    href={proys[currentIndex].link}>
+                                    GitHub
+                                </a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <button

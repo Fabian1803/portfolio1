@@ -58,10 +58,10 @@ export const proys = [
         content: "USC", 
         imgSrc: pre2, 
         listCont: [
-            "spring boot", 
+            "springboot", 
             "android studio",
             "Sql server",
-            "Firebase"
+            "java"
         ],
         link: "http//google.com"
     },
