@@ -60,8 +60,7 @@ export const proys = [
         listCont: [
             "springboot", 
             "android studio",
-            "Sql server",
-            "java"
+            "Sql server"
         ],
         link: "http//google.com"
     },
