@@ -1,7 +1,7 @@
-import pre1 from "../assets/img/projects/pre1.jpg";
-import pre2 from "../assets/img/projects/pre2.png";
-import pre3 from "../assets/img/projects/pre3.png";
-import pre4 from "../assets/img/projects/pre4.jpg";
+import pre1 from "../assets/img/projects/pre1.webp";
+import pre2 from "../assets/img/projects/pre2.webp";
+import pre3 from "../assets/img/projects/pre3.webp";
+import pre4 from "../assets/img/projects/pre4.webp";
 
 export const data = [
     {

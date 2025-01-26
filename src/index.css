@@ -51,7 +51,7 @@ body {
     }
 
     .block-cont {
-        @apply bg-[url('assets/img/bg.png')] bg-cover w-full h-full z-10 border-solid border-2 border-dark-green;
+        @apply bg-[url('assets/img/bg.webp')] bg-cover w-full h-full z-10 border-solid border-2 border-dark-green;
     }
 
     .icon {

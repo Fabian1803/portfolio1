@@ -43,8 +43,8 @@ function App() {
               <motion.h1
                 className="tittle"
                 initial={{ opacity: 1}}
-                animate={{ opacity: 0, x: [0,15,100] }}
-                transition={{ duration: .9, delay: 0.3, ease: 'easeIn' }}
+                animate={{ opacity: 0, x: [0,15,55] }}
+                transition={{ duration: .5, delay: 0.3, ease: 'easeIn' }}
               >
                 Fabian...
               </motion.h1>
