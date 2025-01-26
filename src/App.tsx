@@ -42,9 +42,9 @@ function App() {
               <Profile />
               <motion.h1
                 className="tittle"
-                initial={{ opacity: 1, x: 0 }}
-                animate={{ opacity: 0, x: 100 }}
-                transition={{ duration: 1, delay: 0.7 }}
+                initial={{ opacity: 1}}
+                animate={{ opacity: 0, x: [0,15,100] }}
+                transition={{ duration: .9, delay: 0.3, ease: 'easeIn' }}
               >
                 Fabian...
               </motion.h1>
