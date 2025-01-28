@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { metaData } from './lib/metaData';
+import imgImport  from '/Profile.webp';
 
 const MetaTags: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const MetaTags: React.FC = () => {
       <meta name="theme-color" content={metaData.color} />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       <meta name="msapplication-navbutton-color" content={metaData.color} />
-      <link rel="preload" href={metaData.favicon} as="image" />
+      <link rel="preload" href={imgImport} as="image" />
 
       <meta property="og:title" content={metaData.title} />
       <meta property="og:description" content={metaData.description} />
