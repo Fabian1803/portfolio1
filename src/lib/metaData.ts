@@ -1,5 +1,5 @@
-import profileImage from '../assets/img/Profile.webp';
-import ogImage from '../assets/img/Capture.webp';
+import profileImage from '/Profile.webp';
+import ogImage from '/Capture.webp';
 
 export const metaData = {
     author: "Fabian",
