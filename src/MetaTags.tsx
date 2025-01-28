@@ -12,7 +12,7 @@ const MetaTags: React.FC = () => {
       <meta name="description" content={metaData.description} />
       <meta name="author" content={metaData.author} />
       <title>{metaData.title}</title>
-      <link rel="icon" href={metaData.favicon} type="image/svg+xml" />
+      <link rel="icon" href={metaData.favicon} type="image/webp" />
       <html lang="en" translate="no"/>
       <meta name="theme-color" content={metaData.color} />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
